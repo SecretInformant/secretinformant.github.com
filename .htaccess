@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{http_host} ^secretinformant.github.com [nc]
+RewriteRule ^(.*)$ http://secretinformant.github.com/$1 [r=301,nc]
