@@ -1,5 +1,5 @@
 body {
-font-family:serif;
+font-family:serif;counter-reset: fungi 19 fungi2 37 fungi3 63;
 }
 .topbar {
 background-color:#222;
@@ -17,7 +17,7 @@ margin-top:-35px;
 }
 p.pagetitle {
 font-size:250%;
-color:#C3E3D8;
+color:#dfE;
 margin-top:-75px;
 margin-left:30px;
 }
@@ -60,11 +60,16 @@ padding:15px;
 .content {
 margin-top:40px;
 width:96%;
+font-family:serif;
+}
+.repeatscontent {
+margin-top:90px;
 }
 .span9 {
 width:76%;
 margin-right:10px;
 float: left;
+font-family:serif;
 }
 .span4 {
 width:37%;
@@ -74,8 +79,8 @@ float: left;
 width:22%;
 float: right;
 }
-.content img {
-float:left;
+.content img, .repeatscontent img {
+margin-left:60px;
 margin-right:20px;
 margin-bottom:6px;
 }
@@ -101,9 +106,47 @@ font-size: 1px;
 clear:both;
 }
 
+.fungus li {
+counter-increment:fungi;
+list-style: none;
+
+}
+.fungus li:before {
+content:counter(fungi)"";
+
+}
+
+.fungus2 ol {
+counter-reset: fungi2 19;
+}
+.fungus2 li {
+counter-increment:fungi2;
+list-style: none;
+
+}
+.fungus2 li:before {
+content:counter(fungi2)"";
+
+}
+
+.fungus3 ol {
+counter-reset: fungi3 19;
+}
+.fungus3 li {
+counter-increment:fungi3;
+list-style: none;
+
+}
+.fungus3 li:before {
+content:counter(fungi3)"";
+
+}
+
+/*
 .posts {
 display: none;
 }
 .posts:target{
 display: inline;
 }
+*/
