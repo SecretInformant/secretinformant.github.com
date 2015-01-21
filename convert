@@ -1,0 +1,2 @@
+ 
+convert -thumbnail 6% -quality 65 ~/Pictures/nature/fungi/Laccaria_laccata.JPG ~/mysite/img/thumbs/Laccaria_laccata.JPG

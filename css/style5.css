@@ -1,130 +1,12 @@
 body {
 font-family:serif;
+background-color:#fefeff;
 counter-reset: fungi 19 fungi2 38 fungi3 68;
 }
-.topbar {
-background-color:#222;
-width:100%;
-position:fixed;
-padding-left:20px;
-margin-left: -20px;
-margin-top: -12px;
-font-size: 110%;
-color: #997;
-text-shadow: 0 1px 0 #EEFA41;
-}
-.banner {
-margin-top:-35px;width:600px;height:136px;
-border:ridge #543 3px;
--webkit-box-shadow:2px 2px 3px 1px #230;
--moz-box-shadow:2px 2px 3px 1px #230;
-box-shadow:2px 2px 3px 1px #230;
-}
-p.pagetitle {
-font-size:250%;
-color:#dfE;
-margin-top:-75px;
-margin-left:30px;text-shadow:  2px 3px #230;
-}
 
-.pageimage {
-margin:6px 0px 0px 62px ;
-border:ridge #543 3px;
--webkit-box-shadow:2px 2px 3px 1px #230;
--moz-box-shadow:2px 2px 3px 1px #230;
-box-shadow:2px 2px 3px 1px #230;
-}
-
-.container{
-padding-top: 90px;
-padding-left:10px;
-font-size:11pt;
-margin:0 auto
-}
-.container li img{
-margin-right:120px;
-padding:8px;
-}
-.entries li img {
-margin-left:20px;
-padding:8px;
-}
-ul.entries  {
-list-style-type: none;
-}
-.nav {
-margin-top:-30px;
-}
-.nav li {
-float:right;
-display:inline;
-padding:5px;
-margin:0 auto;
-font-family:sans;
-text-shadow: none;
-}
-.nav a  { 
-color:#C4D689;
-padding:15px;
-}
-.content {
-margin-top:10px;
-width:96%;
-font-family:serif;
-}
-.contentP {
-margin-left:15px
-}
-.range {
-margin:0 auto;
-font-family:sans-serif;
-}
-.range li {
-text-align:left;
-}
-.range li:hover {
-color:#454;
-} 
-.slide {
-margin-left:-2000px;
-
-}
-
-.range li:hover .slide {
-margin-left:-380px;top:380px;
-border:ridge #543 3px;
--webkit-box-shadow:2px 2px 3px 1px #230;
--moz-box-shadow:2px 2px 3px 1px #230;
-box-shadow:2px 2px 3px 1px #230;
-}
-.repeatscontent {
-margin-top:90px;
-}
-.span9 {
-width:76%;
-margin-right:10px;
-float: left;
-font-family:serif;
-}
-.span4 {
-width:37%;
-float: left;
-}
-.span3 {
-width:22%;
-float: right;
-
-}
-.content img, .repeatscontent img {
-margin-left:60px;
-margin-right:20px;
-margin-bottom:6px;
-}
 a {
 color: #226;
-}
-a:hover {
-color: #282;
+text-decoration:none;
 }
 
 hr{
@@ -142,14 +24,131 @@ font-size: 1px;
 clear:both;
 }
 
+.topbar {
+background-color:#222;
+width:100%;
+position:fixed;
+padding-left:30px;
+margin-left: -20px;
+margin-top: -12px;
+font-size: 110%;
+color: #997;
+text-shadow: 0 1px 0 #EEFA41;
+z-index:3;
+}
+
+ul.nav {
+padding:0;
+margin-right:28px;
+display:inline;
+float:right;
+margin-top:-40px;
+}
+
+ul.nav li {
+list-style-type:none;
+display:inline;
+padding:14px;
+font-family:sans;
+text-shadow: none;
+}
+ul.nav li a  { 
+color:#C4D689;
+padding:12px;
+}
+ul.nav li a:hover {
+color:#9D4A17;
+}
+.banner, banner img {
+border:ridge #543 3px;
+margin-top:-35px;
+width:600px;height:136px;
+-webkit-box-shadow:2px 2px 3px 1px #230;
+-moz-box-shadow:2px 2px 3px 1px #230;
+box-shadow:2px 2px 3px 1px #230;
+}
+
+h1.pagetitle {
+color:#dfE;
+margin-top:-90px;
+margin-left:30px;
+text-shadow:2px 3px #230;
+}
+
+.pageimage {
+margin:6px 0px 0px 12px ;
+}
+
+.container{
+padding-top: 75px;
+padding-left:10px;
+font-size:11pt;
+margin:0 auto;
+z-index:2
+}
+.container li img {
+margin-right:120px;
+padding:8px;
+}
+ul.entries  {
+list-style-type: none;
+font-weight:bold;
+}
+.entries li img {
+margin-left:20px;
+}
+.entries h3 {
+color: #7F2121;
+text-shadow: 1px 1px #a85;
+margin-top:-8px;
+margin-left:50px;
+}
+
+.content {
+width:96%;
+font-family:serif;
+}
+.content p {
+margin-left:15px
+}
+p img {
+border:ridge #543 3px;
+-webkit-box-shadow:2px 2px 3px 1px #230;
+-moz-box-shadow:2px 2px 3px 1px #230;
+box-shadow:2px 2px 3px 1px #230;
+margin: 5px 
+}
+
+.repeatscontent {
+margin-top:3px;
+}
+.span9 {
+width:62%;
+margin-top:30px;
+float: left;
+font-family:serif;
+}
+.span4 {
+width:37%;
+float: left;
+}
+.span3 {
+width:22%;
+float: right;
+
+}
+.content img, .repeatscontent img {
+margin-left:60px;
+margin-right:20px;
+margin-bottom:6px;
+}
+
 .fungus li {
 counter-increment:fungi;
 list-style: none;
-
 }
 .fungus li:before {
 content:counter(fungi)"";
-
 }
 
 .fungus2 ol {
@@ -158,11 +157,9 @@ counter-reset: fungi2 19;
 .fungus2 li {
 counter-increment:fungi2;
 list-style: none;
-
 }
 .fungus2 li:before {
 content:counter(fungi2)"";
-
 }
 
 .fungus3 ol {
@@ -171,18 +168,20 @@ counter-reset: fungi3 19;
 .fungus3 li {
 counter-increment:fungi3;
 list-style: none;
-
 }
 .fungus3 li:before {
 content:counter(fungi3)"";
-
+}
+a:hover, h3.sidebar:hover {
+background-color: #6ac; 
+color:#A1361D
 }
 
-/*
-.posts {
-display: none;
+.sitemap li {
+font-size:80%
 }
-.posts:target{
-display: inline;
+ul.entries a:hover, ul.entries a:hover h3{
+color:#489;
+text-shadow: 1px 1px #422;
+background-color:#feffff;
 }
-*/
