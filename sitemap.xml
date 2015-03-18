@@ -40,6 +40,11 @@
       <changefreq>yearly</changefreq>
       <priority>0.6</priority>
     </url>
+    <loc> http://secretinformant.github.io/bird-report2015/index.html</loc>
+			<lastmod>2015-3-18</lastmod>
+      <changefreq>yearly</changefreq>
+      <priority>0.6</priority>
+    </url>
     		<loc> http://secretinformant.github.io/butterfly-report/index.html</loc>
 			<lastmod>2015-3-5</lastmod>
       <changefreq>yearly</changefreq>
