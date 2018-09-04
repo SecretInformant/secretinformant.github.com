@@ -1,8 +1,8 @@
-body {
+ body {
 font-family:serif;
 max-width:90%;
 background-color:#fefeff;
-counter-reset: fungi 20 fungi2 39 fungi3 66;
+counter-reset: fungi 20 fungi2 39 fungi3 68;
 }
 
 a {
