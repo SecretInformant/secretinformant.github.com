@@ -17,7 +17,7 @@ display: block;
 padding: 0;
 margin-left: 4px ;
 margin-right: 4px ;
-width: 60%;
+width: 90%;
 border: none;
 border-top: 1px solid #777;
 border-bottom: 1px solid #fff;
@@ -107,7 +107,7 @@ margin-top:-8px;
 }
 
 .content {
-width:21em;
+width:70%;
 font-family:serif;
 margin:0 auto;
 }
