@@ -1,8 +1,7 @@
  body {
 font-family:serif;
-max-width:80%;
 background-color:#fefeff;
-counter-reset: fungi 24 fungi2 43 fungi3 73;
+counter-reset: fungi 24 fungi2 43 fungi3 74;
 }
 
 a {
@@ -15,7 +14,6 @@ height:0;
 max-height: 0;
 display: block;
 padding: 0;
-
 width: 70%;
 border: none;
 border-top: 1px solid #777;
@@ -61,15 +59,15 @@ color:#9D4A17;
 }
 
 .container{
-width:80%;
-padding: 85px;
-margin:5px auto;
+width:85%;
+padding: 65px;
+margin-top:20px;
 }
 
 
 .banner {
 border:ridge #543 3px;
-margin:12px auto;
+margin:12px 25px;
 width:300px;height:75px;
 -webkit-box-shadow:2px 2px 3px 1px #230;
 box-shadow:2px 2px 3px 1px #230;
@@ -77,8 +75,8 @@ box-shadow:2px 2px 3px 1px #230;
 
 h1.pagetitle, h2.pagetitle {
 color:#dfE;
-margin-top:-85px;
-margin-left:8px;
+margin-top:-75px;
+margin-left:2px;
 padding:8px;
 text-shadow:2px 3px #230;
 }
@@ -86,7 +84,6 @@ text-shadow:2px 3px #230;
 
 .pageimage img{
 border:ridge #543 3px;
-margin:6px auto;
 -webkit-box-shadow:2px 2px 3px 1px #230;
 box-shadow:2px 2px 3px 1px #230;
 }
@@ -95,8 +92,11 @@ ul.entries  {
 list-style-type: none;
 font-weight:bold;
 }
+.entries li {
+text-decoration:underline;
+}
 .entries li img {
-margin-left:-15px;
+margin-left:-25px;
 }
 .entries h3 {
 color: #7F2121;
@@ -104,14 +104,20 @@ text-shadow: 1px 1px #a85;
 margin-top:8px;
 }
 .contents {
-text-align:center;
+text-align:center;margin-left:-30px;
 }
 
 .content {
-width:80%;
-font-family:serif;
-
-
+font-family:serif;margin-left:-30px;
+}
+.content ul{
+width:90%;
+}
+.content li{
+float:left;margin:10px;padding:6px;
+}
+.blank{
+border:1px;width:250px ;height:187px;
 }
 
 .container img {
@@ -133,6 +139,7 @@ margin-bottom:6px;
 .fungus li {
 counter-increment:fungi;
 list-style: none;
+padding:8px
 }
 .fungus li:before {
 content:counter(fungi)"";
