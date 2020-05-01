@@ -23,12 +23,13 @@ font-size: 1px;
 }
 
 .topbar {
-background-color:#222;
+background-color:#444;
 width:100%;
 position:fixed;
-padding-left:30px;
-margin-left: -20px;
-margin-top: -32px;
+padding:1%;
+padding-left:4%;
+margin-left:-2%;
+margin-top: -26px;
 font-size: 130%;
 color: #997;
 text-shadow: 0 1px 0 #EEFA41;
@@ -60,25 +61,30 @@ color:#9D4A17;
 
 .container{
 width:85%;
-padding: 65px;
-margin-top:20px;
+padding: 6%;
+margin:2%;
+margin-left:-2%;
 }
-
-
-.banner {
-border:ridge #543 3px;
-margin:12px 25px;
-width:300px;height:75px;
--webkit-box-shadow:2px 2px 3px 1px #230;
-box-shadow:2px 2px 3px 1px #230;
+/*.spoons{
+position:absolute;
+background-image:url(/img/greyspoons.png);
+ width:460px; height:115px;
+background-repeat:no-repeat;
+margin-top:33%;
+margin-left:-2%;*/
 }
-
+.pageimage {
+margin-top:40px;
+}
 h1.pagetitle, h2.pagetitle {
 color:#dfE;
-margin-top:-75px;
-margin-left:2px;
-padding:8px;
+margin-top:70px;
+padding:32px;
 text-shadow:2px 3px #230;
+background-image:url(/img/greyspoons.png);
+ width:460px; height:115px;
+background-repeat:no-repeat;
+margin-left:-2%;
 }
 
 
@@ -94,9 +100,13 @@ font-weight:bold;
 }
 .entries li {
 text-decoration:underline;
+padding:1%;
 }
 .entries li img {
-margin-left:-25px;
+margin-left:-3%;
+border:ridge #543 3px;
+-webkit-box-shadow:2px 2px 3px 1px #230;
+box-shadow:2px 2px 3px 1px #230;
 }
 .entries h3 {
 color: #7F2121;
@@ -104,17 +114,19 @@ text-shadow: 1px 1px #a85;
 margin-top:8px;
 }
 .contents {
-text-align:center;margin-left:-30px;
+text-align:center;
+margin-top:-5%;
+margin-left:-12px;
 }
 
 .content {
-font-family:serif;margin-left:-30px;
+font-family:serif;margin-left:-15px;margin-top:-68px;
 }
 .content ul{
 width:90%;
 }
 .content li{
-float:left;margin:10px;padding:6px;
+float:left;margin:8px;padding:8px;
 }
 .blank{
 border:1px;width:250px ;height:187px;
@@ -173,6 +185,9 @@ color:#A1361D
 
 .sitemap li {
 font-size:80%
+}
+.sidebar ul {
+display:inline;padding:4px;clear:both;
 }
 ul.entries a:hover, ul.entries a:hover h3{
 color:#489;
