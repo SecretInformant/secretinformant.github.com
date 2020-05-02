@@ -5,7 +5,7 @@ counter-reset: fungi 24 fungi2 43 fungi3 74;
 }
 
 a {
-color: #226;
+colour:#3CC742
 text-decoration:none;
 }
 
@@ -61,32 +61,21 @@ color:#9D4A17;
 
 .container{
 width:85%;
-padding: 6%;
+padding: 4%;
 margin:2%;
 margin-left:-2%;
 }
-/*.spoons{
-position:absolute;
-background-image:url(/img/greyspoons.png);
- width:460px; height:115px;
-background-repeat:no-repeat;
-margin-top:33%;
-margin-left:-2%;*/
-}
-.pageimage {
-margin-top:40px;
-}
+
 h1.pagetitle, h2.pagetitle {
 color:#dfE;
-margin-top:70px;
-padding:32px;
+margin-top:90px;
+padding-top:22px;padding-left:20px;
 text-shadow:2px 3px #230;
 background-image:url(/img/greyspoons.png);
  width:460px; height:115px;
 background-repeat:no-repeat;
 margin-left:-2%;
 }
-
 
 .pageimage img{
 border:ridge #543 3px;
@@ -96,10 +85,9 @@ box-shadow:2px 2px 3px 1px #230;
 
 ul.entries  {
 list-style-type: none;
-font-weight:bold;
+font-weight:bold;font-variant:small-caps;
 }
 .entries li {
-text-decoration:underline;
 padding:1%;
 }
 .entries li img {
@@ -114,13 +102,15 @@ text-shadow: 1px 1px #a85;
 margin-top:8px;
 }
 .contents {
-text-align:center;
-margin-top:-5%;
-margin-left:-12px;
+text-align:center;font-variant:small-caps;
+margin-top:5%;
+margin-left:14px;
 }
 
 .content {
-font-family:serif;margin-left:-15px;margin-top:-68px;
+font-family:serif;
+margin-left:-6px;
+margin-top:-68px;
 }
 .content ul{
 width:90%;
@@ -179,7 +169,7 @@ list-style: none;
 content:counter(fungi3)"";
 }
 a:hover, h3.sidebar:hover {
-background-color: #6ac; 
+background-color: #C1A9C1; 
 color:#A1361D
 }
 
@@ -190,7 +180,7 @@ font-size:80%
 display:inline;padding:4px;clear:both;
 }
 ul.entries a:hover, ul.entries a:hover h3{
-color:#489;
-text-shadow: 1px 1px #422;
-background-color:#feffff;
+color:#A1361D;
+text-shadow: 1px 1px #63B316;
+
 }
