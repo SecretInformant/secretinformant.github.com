@@ -23,7 +23,10 @@
 			  <li> <a href="/posts">Posts</a></li>
             </ul>
       </div>
-   
+       
+    
+
+ 
     <div class="container">
 <div >
 <h1 class="pagetitle">Edible Fungi of <br />East Donyland</h1>
@@ -212,9 +215,12 @@ You might be better off visiting:
 </ul><hr/>
 <a href="/sitemap"><h3 class="sidebar">SiteMap</h3></a>
 
- </div>
-</div>
+  </div>
+
 <hr/>
-</body>
+
+    
+
+  </body>
 </html>
 
