@@ -1,7 +1,7 @@
 body {
 font-family:serif;
 background-color:#F0F3D3;
-counter-reset:fungi 24 fungi2 43 fungi3 74;
+counter-reset:fungi fungi2 24 fungi3 44  fungi4 75;
 }
 
 a {
@@ -83,22 +83,21 @@ box-shadow:.15em .15em .2em .1em #230;
 text-align:center;
 font-variant:small-caps;
 margin-left:-.3em;
-float:left; list-style:none;
-}
- ul.entries{
-font-variant:normal;
-float:left; 
+float:left;
 list-style:none;
-text-align:center;
 }
-ul.entries img{ 
+
+ span.entries{
+font-variant:small-caps;
+float:left; 
+text-align:center;
+margin:5px;
+}
+span.entries img{ 
 border:ridge #543 0.2em;
 box-shadow:.15em .15em .2em .1em #230;
 }
 
-li.entries {
-
-}
 .index li, .content li {
 list-style-type:none;
 float:left;
@@ -145,40 +144,56 @@ margin-left:.3em;
 margin-bottom:.3em;
 }
 
-.fungus li {
+ol.fungus li {
 counter-increment:fungi;
 list-style:none;
 padding:.5em;
 }
 
-.fungus li:before {
-content:counter(fungi)"";
+ol.fungus li:before {
+content:counter(fungi) ".";
 }
 
 .fungus2 ol {
-counter-reset:fungi2 19;
+counter-reset:fungi2 ;
 }
 
 .fungus2 li {
 counter-increment:fungi2;
 list-style:none;
+padding:.5em;
 }
 
 .fungus2 li:before {
-content:counter(fungi2)"";
+content:counter(fungi2) ".";
 }
 
 .fungus3 ol {
-counter-reset:fungi3 19;
+counter-reset:fungi3 ;
 }
 
 .fungus3 li {
 counter-increment:fungi3;
 list-style:none;
+padding:.5em;
 }
 
 .fungus3 li:before {
-content:counter(fungi3)"";
+content:counter(fungi3)".";
+}
+
+.fungus4 ol {
+counter-reset:fungi4 ;
+}
+
+.fungus4 li {
+counter-increment:fungi4;
+list-style:none;
+padding:.5em;
+}
+
+.fungus4 li:before {
+content:counter(fungi4)".";
 }
 
 a:hover,h3.sidebar:hover {
@@ -195,10 +210,10 @@ display:inline;
 clear:both;
 padding:.25em;
 }
-ul.entries a:hover {
+.entries a:hover {
 color:#356B25;
 }
-ul.entries a:hover  img{
+.entries a:hover  img{
 color:#8206AA;
 box-shadow:.08em .04em #08AA06;
 
