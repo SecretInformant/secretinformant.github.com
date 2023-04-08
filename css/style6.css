@@ -1,0 +1,312 @@
+body
+{
+  font-family: serif;
+  background-image: url("../cloth32.jpg");
+  background-size: auto;
+  counter-reset: fungi fungi2 26 fungi3 47  fungi4 79;
+}
+
+a
+{
+  color: maroon;
+  text-decoration: underline;
+}
+
+hr
+{
+  height: 0;
+  max-height: 0;
+  display: block;
+  width: 70%;
+  border: none;
+  border-top: .1em solid #777;
+  border-bottom: .1em solid #fff;
+  font-size: .1em;
+  overflow: hidden;
+}
+
+.topbar
+{
+  font-size: 1.4em;
+  color: #997;
+  text-shadow: 0 .1em 0 #EEFA41;
+  text-align: center;
+}
+
+ul.nav
+{
+  margin-top: -0.8em;
+  text-align: center;
+}
+
+ul.nav li
+{
+  list-style-type: none;
+  display: inline;
+  font-family: sans;
+  text-shadow: 0 .1em 0 #EEFA41;
+}
+
+ul.nav li a
+{
+  color: maroon;
+  padding: .1em;
+}
+
+ul.nav li a:hover
+{
+  background-color: #F0F3D3;
+}
+
+.container
+{
+  width: 95%;
+  margin: 0 auto;
+  left: -10px;
+  text-align: center;
+}
+
+.container img
+{
+  position: relative;
+  border: 1px ridge #E6E6FA;
+}
+
+h1.pagetitle,h2.pagetitle
+{
+  color: #dfE;
+  padding-top: 28px;
+  text-shadow: .1em .1em #230;
+  background-image: url(/img/greyspoons.png);
+  width: 400px;
+  height: 100px;
+  background-repeat: no-repeat;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom:-20px;
+}
+
+.pageimage img
+{
+  border: ridge #543 0.2em;
+  box-shadow: .15em .15em .2em .1em #230;
+}
+
+.index
+{
+  text-align: center;
+  font-variant: small-caps;
+  margin-left: -.3em;
+  float: left;
+  list-style: none;
+}
+
+span.entries
+{
+  font-variant: small-caps;
+  text-align: center;
+}
+
+ul.entries h4
+{
+  margin-top: -10px;
+}
+
+ul.entries
+{
+  margin-left: -40px;
+}
+
+span.entries img
+{
+  margin: 6px;
+}
+
+.index li, .content li
+{
+  list-style-type: none;
+  float: left;
+  text-align: center;
+}
+
+.index img
+{
+  z-index: -1;
+}
+
+.index h3 a
+{
+  color: maroon;
+}
+
+.index p
+{
+  margin: -2em 0 0 .15em;
+  opacity: .6;
+  z-index: 4;
+  width: 90%;
+  background-color: #dada92;
+}
+
+.blank
+{
+  border: 0.1em;
+  width: 250px;
+  height: 187px;
+}
+
+.repeatscontent
+{
+  margin: 0 auto;
+}
+
+.content img,.repeatscontent img
+{
+  margin-left: .3em;
+  margin-bottom: .3em;
+}
+
+div.gallery
+{
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover
+{
+  border: 1px solid #777;
+}
+
+div.gallery img
+{
+  width: 100%;
+  height: auto;
+}
+
+ol.fungus li
+{
+  counter-increment: fungi;
+  list-style: none;
+  padding: .5em;
+  margin-left:-15px;
+}
+
+ol.fungus li:before
+{
+  content: counter(fungi) ".";
+}
+
+.fungus2 ol
+{
+  counter-reset: fungi2;
+  }
+
+.fungus2 li
+{
+  counter-increment: fungi2;
+  list-style: none;
+  padding: .5em;
+  margin-left:-15px;
+}
+
+.fungus2 li:before
+{
+  content: counter(fungi2) ".";
+}
+
+.fungus3 ol
+{
+  counter-reset: fungi3;
+  }
+
+.fungus3 li
+{
+  counter-increment: fungi3;
+  list-style: none;
+  padding: .5em;
+  margin-left:-15px;
+}
+
+.fungus3 li:before
+{
+  content: counter(fungi3)".";
+}
+
+.fungus4 ol
+{
+  counter-reset: fungi4;
+  }
+
+.fungus4 li
+{
+  counter-increment: fungi4;
+  list-style: none;
+  padding: .5em;
+  margin-left:-15px;
+}
+
+.fungus4 li:before
+{
+  content: counter(fungi4)".";
+}
+
+a:hover,h3.sidebar:hover
+{
+/*background-color:#dada97;*/
+  color: #A1361D;
+}
+
+.sitemap li
+{
+  font-size: 80%;
+}
+
+ul.sidebar
+{
+  display: inline;
+  clear: both;
+  padding: .25em;
+  list-style: none;
+}
+
+.entries a:hover
+{
+  color: #356B25;
+}
+
+.entries a:hover  img
+{
+  color: #8206AA;
+  border:1.6px ridge gold;
+  box-shadow: .08em .04em #08AA06;
+}
+ 
+article 
+{	
+	display: none;
+}
+
+article:target  
+{	
+	display: inline;
+}
+article {
+	text-align:center;
+ }
+article a p { 
+	float:right;padding:10px;
+}	
+
+.closebtn {
+  text-decoration: none;
+  float: right;
+  font-weight: bold;
+  color: #fff;
+ }
+
+.closebtn:hover,
+.closebtn:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+	
