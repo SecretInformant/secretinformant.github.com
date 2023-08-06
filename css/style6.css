@@ -35,9 +35,9 @@ hr
 
 ul.nav
 {
-  margin-top: -0.8em;
-  text-align: center;
-}
+  margin-top: 0.8em;
+  margin-left:-40px;
+ }
 
 ul.nav li
 {
@@ -78,11 +78,11 @@ h1.pagetitle,h2.pagetitle
   padding-top: 28px;
   text-shadow: .1em .1em #230;
   background-image: url(/img/greyspoons.png);
-  width: 400px;
-  height: 100px;
+   width: 400px;
+  height: 120px; 
   background-repeat: no-repeat;
   text-align: center;
-  margin: 0 auto;
+  margin: -10px auto;
   margin-bottom:-20px;
 }
 
@@ -180,6 +180,10 @@ div.gallery img
 {
   width: 100%;
   height: auto;
+}
+ol
+{
+list-style-position: inside;
 }
 
 ol.fungus li
